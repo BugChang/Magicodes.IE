@@ -64,5 +64,10 @@ namespace Magicodes.ExporterAndImporter.Excel
         ///     是否仅导出错误数据
         /// </summary>
         public bool IsOnlyErrorRows { get; set; }
+
+        /// <summary>
+        /// 第一列偏移
+        /// </summary>
+        public int FirstColumnOffset { get; set; } = 0;
     }
 }
