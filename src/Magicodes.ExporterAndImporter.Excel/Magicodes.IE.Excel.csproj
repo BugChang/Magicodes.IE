@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netstandard2.1;net6.0;net7.0;net8.0</TargetFrameworks>
     <PackageId>Magicodes.IE.Excel</PackageId>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company></Company>
+    <Description>
+		Import and export general library, support Dto import and export, template export, fancy export and dynamic export, support Excel, Csv, Word, Pdf and Html.
+		导入导出通用库，支持Dto导入导出、模板导出、花式导出以及动态导出，支持Excel、Csv、Word、Pdf和Html。</Description>
+    <Authors>BugChang</Authors>
+    <PackageProjectUrl>https://github.com/BugChang/Magicodes.IE</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BugChang/Magicodes.IE</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="DynamicExpresso.Core" Version="2.3.3" />
